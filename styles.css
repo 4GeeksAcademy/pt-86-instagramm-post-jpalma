@@ -1,0 +1,23 @@
+div {
+  border: 1px solid red;
+}
+body{
+     font-family: "Roboto", sans-serif;
+}
+
+.container{
+    margin: 50px 100px 50px 200px;
+    align-items: center;
+    width: 100%;
+}
+
+.bottom{
+    display:flex;
+    justify-content: space-around;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+}
+
