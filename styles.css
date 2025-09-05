@@ -1,23 +1,57 @@
-div {
-  border: 1px solid red;
-}
 body{
      font-family: "Roboto", sans-serif;
 }
 
 .container{
-    margin: 50px 100px 50px 200px;
+    margin-right: 55%;
+    margin-left: 25%;
     align-items: center;
-    width: 100%;
 }
 
 .bottom{
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
+    font-size: 25px;
 }
 
 img{
     height: 400px;
     width: 400px;
+    object-fit: cover;
 }
 
+.post-body p{
+    padding-top: 12px;
+}
+.far-right{
+    margin-left: auto;
+}
+
+.left{
+    cursor: pointer;
+    transition: .5s;
+}
+.left:hover{
+    color: red;
+}
+.right{
+    cursor: pointer;
+    transition: .5s;
+}
+.right:hover{
+    color:blue;
+}
+.comment{
+    cursor: pointer;
+    transition: .5s;
+}
+.comment:hover{
+    color: green;
+}
+.far-right{
+    cursor: pointer;
+    transition: .5s;
+}
+.far-right:hover{
+    color: gray;
+}
